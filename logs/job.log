@@ -1,0 +1,181 @@
+nohup: ignoring input
+/home/yibin.xu/anaconda3/envs/dm/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator TfidfTransformer from version 1.2.0 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/yibin.xu/anaconda3/envs/dm/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 1.2.0 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/yibin.xu/anaconda3/envs/dm/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator LogisticRegression from version 1.2.0 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2023-03-02 14:15:09,981 log.log INFO query input:你好
+2023-03-02 14:15:09,982 log.log INFO query rewrite output:你好
+2023-03-02 14:15:10,495 log.log INFO predict class:Chat
+2023-03-02 14:15:10,496 log.log INFO score:0.5662483978802009
+2023-03-02 14:15:10,496 log.log INFO dm response :你好,请问你是? 
+
+2023-03-02 14:15:13,936 log.log INFO query input:你叫什么
+你叫什么 0.8513218760490417
+2023-03-02 14:15:14,486 log.log INFO query rewrite output:你叫什么
+2023-03-02 14:15:14,872 log.log INFO predict class:Chat
+2023-03-02 14:15:14,872 log.log INFO score:0.9999833567559202
+2023-03-02 14:15:14,872 log.log INFO dm response :我叫穆莎 
+
+2023-03-02 14:15:20,085 log.log INFO query input:你多少岁啦
+你多少岁啦 0.8493781089782715
+2023-03-02 14:15:20,688 log.log INFO query rewrite output:你多少岁啦
+2023-03-02 14:15:21,070 log.log INFO predict class:Chat
+2023-03-02 14:15:21,071 log.log INFO score:0.999903902381128
+2023-03-02 14:15:21,071 log.log INFO dm response :我18岁 
+
+2023-03-02 14:15:57,374 log.log INFO query input:你的父母是谁？
+你的父母是谁？ 0.9685497283935547
+2023-03-02 14:15:57,917 log.log INFO query rewrite output:你的父母是谁？
+2023-03-02 14:15:57,977 log.log INFO predict class:Chat
+2023-03-02 14:15:57,977 log.log INFO score:1.0
+2023-03-02 14:15:57,977 log.log INFO dm response :我的创造者是摩尔线程的AI科学家。他们基于摩尔GPU的AI计算和渲染功能，赋予了我丰富的能力。我会智能内容创作，比如对对联，吟诗作画。身后的画就是我创作的，对AI艺术感兴趣的朋友们，一会儿可以去画廊参观。 
+
+2023-03-02 14:16:11,286 log.log INFO query input:可以具体说说我们用到了什么AI模型吗？
+可以具体说说我们用到了什么ai模型吗？ 0.924909770488739
+2023-03-02 14:16:11,877 log.log INFO query rewrite output:可以具体说说我们用到了什么ai模型吗？
+2023-03-02 14:16:12,981 log.log INFO predict class:DocQa
+2023-03-02 14:16:12,981 log.log INFO score:0.7393399
+2023-03-02 14:16:12,981 log.log INFO dm response :专家系统 
+
+2023-03-02 14:16:26,136 log.log INFO query input:谢谢穆莎的介绍，很期待你之后的成长！
+谢谢穆莎的介绍，很期待你之后的成长！ 0.9871664643287659
+2023-03-02 14:16:26,721 log.log INFO query rewrite output:谢谢穆莎的介绍，很期待你之后的成长！
+2023-03-02 14:16:26,786 log.log INFO predict class:Chat
+2023-03-02 14:16:26,786 log.log INFO score:1.0
+2023-03-02 14:16:26,786 log.log INFO dm response :好的，我会努力的，感谢邀请我来发布会，下次再见，拜拜 
+
+2023-03-02 14:46:38,742 log.log INFO query input:哪个女神你最喜欢
+2023-03-02 14:46:38,742 log.log INFO query rewrite output:哪个女神你最喜欢
+2023-03-02 14:46:39,828 log.log INFO predict class:Chat
+2023-03-02 14:46:39,828 log.log INFO score:0.6121475492930772
+2023-03-02 14:46:39,828 log.log INFO dm response :当然是我最爱的人啦 
+
+2023-03-02 14:50:06,021 log.log INFO query input:摩托罗拉ME501何时上市的？
+摩托罗拉me##50##1何时上市的？ 0.9111093878746033
+2023-03-02 14:50:06,577 log.log INFO query rewrite output:摩托罗拉me##50##1何时上市的？
+2023-03-02 14:50:06,918 log.log INFO predict class:DocQa
+2023-03-02 14:50:06,918 log.log INFO score:0.72888553
+2023-03-02 14:50:06,919 log.log INFO dm response :您想问的是不是：有关《mora》的问题，可以尝试换个问法哦～ 
+
+2023-03-02 14:50:14,911 log.log INFO query input:请问第3届奥斯卡金像奖于哪年在什么影片中获得了最佳导演？
+请问摩托罗拉me##50##50##1第3届奥斯卡金像奖于哪年在什么影片中获得了最佳导演？ 0.749515950679779
+2023-03-02 14:50:16,009 log.log INFO query rewrite output:请问第3届奥斯卡金像奖于哪年在什么影片中获得了最佳导演？
+2023-03-02 14:50:16,402 log.log INFO predict class:DocQa
+2023-03-02 14:50:16,402 log.log INFO score:0.78137726
+2023-03-02 14:50:16,402 log.log INFO dm response :西线无战事 
+
+2023-03-02 14:50:29,022 log.log INFO query input:不对
+不对 0.6121379137039185
+2023-03-02 14:50:29,725 log.log INFO query rewrite output:不对
+2023-03-02 14:50:30,468 log.log INFO predict class:Chat
+2023-03-02 14:50:30,468 log.log INFO score:0.5918460333463506
+2023-03-02 14:50:30,468 log.log INFO dm response :什么不对? 
+
+2023-03-02 14:51:12,091 log.log INFO query input:谁是微软的首席执行官？
+谁是微软的首席执行官？ 0.8620595932006836
+2023-03-02 14:51:12,817 log.log INFO query rewrite output:谁是微软的首席执行官？
+2023-03-02 14:51:13,129 log.log INFO predict class:DocQa
+2023-03-02 14:51:13,129 log.log INFO score:0.8255379
+2023-03-02 14:51:13,129 log.log INFO dm response :史蒂夫·巴尔默 
+
+2023-03-02 14:51:25,374 log.log INFO query input:谁创办了微软
+史蒂夫·巴尔默谁创办了微软 0.8314200639724731
+2023-03-02 14:51:26,122 log.log INFO query rewrite output:史蒂夫·巴尔默谁创办了微软
+2023-03-02 14:51:26,625 log.log INFO predict class:DocQa
+2023-03-02 14:51:26,626 log.log INFO score:0.8060473
+2023-03-02 14:51:26,626 log.log INFO dm response :比尔·盖茨 
+
+2023-03-02 14:52:45,545 log.log INFO query input:谁唱的风不息？
+比尔·盖茨尔默茨谁唱的风不息？ 0.8442132472991943
+2023-03-02 14:52:46,506 log.log INFO query rewrite output:比尔·盖茨尔默茨谁唱的风不息？
+2023-03-02 14:52:46,825 log.log INFO predict class:DocQa
+2023-03-02 14:52:46,825 log.log INFO score:0.8032022
+2023-03-02 14:52:46,825 log.log INFO dm response :郭富城 
+
+2023-03-02 14:54:32,486 log.log INFO query input:刘德华的妻子叫什么名字啊
+比尔·盖茨尔默茨刘德华的妻子叫什么名字啊 0.7586033940315247
+2023-03-02 14:54:33,499 log.log INFO query rewrite output:刘德华的妻子叫什么名字啊
+2023-03-02 14:54:33,782 log.log INFO predict class:DocQa
+2023-03-02 14:54:33,782 log.log INFO score:0.8146459
+2023-03-02 14:54:33,782 log.log INFO dm response :朱丽倩 
+
+2023-03-02 14:54:44,272 log.log INFO query input:你知道刘德华的妻子吗
+你知道刘德华的妻子吗 0.9631041884422302
+2023-03-02 14:54:44,846 log.log INFO query rewrite output:你知道刘德华的妻子吗
+2023-03-02 14:54:45,674 log.log INFO predict class:Chat
+2023-03-02 14:54:45,675 log.log INFO score:0.6576650439192383
+2023-03-02 14:54:45,675 log.log INFO dm response :知道啊 
+
+2023-03-02 14:55:44,990 log.log INFO query input:她叫什么呢
+刘德华的妻子叫什么呢 0.996547281742096
+2023-03-02 14:55:45,866 log.log INFO query rewrite output:刘德华的妻子叫什么呢
+2023-03-02 14:55:46,162 log.log INFO predict class:DocQa
+2023-03-02 14:55:46,162 log.log INFO score:0.8146756
+2023-03-02 14:55:46,162 log.log INFO dm response :朱丽倩 
+
+2023-03-02 14:56:34,027 log.log INFO query input:你知道碧昂斯的第一张专辑吗
+你知道碧昂斯的第一张专辑吗 0.6435258984565735
+2023-03-02 14:56:34,603 log.log INFO query rewrite output:你知道碧昂斯的第一张专辑吗
+2023-03-02 14:56:34,906 log.log INFO predict class:DocQa
+2023-03-02 14:56:34,906 log.log INFO score:0.7908996
+2023-03-02 14:56:34,906 log.log INFO dm response :危险爱情 
+
+2023-03-02 15:08:10,837 log.log INFO query input:长江有多长
+2023-03-02 15:08:10,838 log.log INFO query rewrite output:长江有多长
+2023-03-02 15:08:11,106 log.log INFO predict class:DocQa
+2023-03-02 15:08:11,106 log.log INFO score:0.7618827
+2023-03-02 15:08:11,106 log.log INFO dm response :全长6300公里 
+
+2023-03-02 15:08:15,549 log.log INFO query input:黄河有多长
+长江黄河有多长 0.5597991347312927
+2023-03-02 15:08:16,150 log.log INFO query rewrite output:黄河有多长
+2023-03-02 15:08:16,438 log.log INFO predict class:DocQa
+2023-03-02 15:08:16,438 log.log INFO score:0.7541882
+2023-03-02 15:08:16,438 log.log INFO dm response :5464公里 
+
+2023-03-02 15:08:23,367 log.log INFO query input:长江和黄河谁长
+长江长江和黄河谁长 0.8480061292648315
+2023-03-02 15:08:24,058 log.log INFO query rewrite output:长江长江和黄河谁长
+2023-03-02 15:08:25,040 log.log INFO predict class:Chat
+2023-03-02 15:08:25,040 log.log INFO score:0.5384913953982656
+2023-03-02 15:08:25,040 log.log INFO dm response :长江与黄河的长度是一样的 
+
+2023-03-02 15:09:28,290 log.log INFO query input:你是谁
+你是谁 0.8487194180488586
+2023-03-02 15:09:28,824 log.log INFO query rewrite output:你是谁
+2023-03-02 15:09:28,895 log.log INFO predict class:Chat
+2023-03-02 15:09:28,895 log.log INFO score:0.757
+2023-03-02 15:09:28,895 log.log INFO dm response :我的创造者是摩尔线程的AI科学家。他们基于摩尔GPU的AI计算和渲染功能，赋予了我丰富的能力。我会智能内容创作，比如对对联，吟诗作画。身后的画就是我创作的，对AI艺术感兴趣的朋友们，一会儿可以去画廊参观。 
+
+2023-03-02 15:33:56,604 log.log INFO query input:你是谁
+2023-03-02 15:33:56,604 log.log INFO query rewrite output:你是谁
+2023-03-02 15:33:56,650 log.log INFO predict class:Chat
+2023-03-02 15:33:56,650 log.log INFO score:0.757
+2023-03-02 15:33:56,650 log.log INFO dm response :我的创造者是摩尔线程的AI科学家。他们基于摩尔GPU的AI计算和渲染功能，赋予了我丰富的能力。我会智能内容创作，比如对对联，吟诗作画。身后的画就是我创作的，对AI艺术感兴趣的朋友们，一会儿可以去画廊参观。 
+
+2023-03-02 15:34:00,495 log.log INFO query input:你叫什么
+你叫什么 0.8826769590377808
+2023-03-02 15:34:01,058 log.log INFO query rewrite output:你叫什么
+2023-03-02 15:34:01,377 log.log INFO predict class:Chat
+2023-03-02 15:34:01,377 log.log INFO score:0.9999657874025809
+2023-03-02 15:34:01,377 log.log INFO dm response :我叫穆莎 
+
+2023-03-02 15:36:06,251 log.log INFO query input:自我介绍
+自我介绍 0.8744364380836487
+2023-03-02 15:36:06,896 log.log INFO query rewrite output:自我介绍
+2023-03-02 15:36:09,054 log.log INFO predict class:Chat
+2023-03-02 15:36:09,054 log.log INFO score:0.9998663420274131
+2023-03-02 15:36:09,054 log.log INFO dm response :我叫穆莎,是摩尔线程自主研发的数字人。很高兴认识大家。 
+
+2023-03-02 15:36:16,429 log.log INFO query input:做个自我介绍
+做个自我介绍 0.8867053985595703
+2023-03-02 15:36:16,977 log.log INFO query rewrite output:做个自我介绍
+2023-03-02 15:36:18,197 log.log INFO predict class:Chat
+2023-03-02 15:36:18,198 log.log INFO score:0.9999477752335075
+2023-03-02 15:36:18,198 log.log INFO dm response :我叫穆莎,是摩尔线程自主研发的数字人。很高兴认识大家。 
+

@@ -1,0 +1,238 @@
+nohup: ignoring input
+/home/yibin.xu/anaconda3/envs/dm/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator TfidfTransformer from version 1.2.0 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/yibin.xu/anaconda3/envs/dm/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 1.2.0 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/yibin.xu/anaconda3/envs/dm/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator LogisticRegression from version 1.2.0 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2023-03-02 18:02:07,914 log.log INFO query input:你好
+2023-03-02 18:02:07,914 log.log INFO query rewrite output:你好
+2023-03-02 18:02:08,420 log.log INFO predict class:Chat
+2023-03-02 18:02:08,420 log.log INFO score:0.5662483978802009
+2023-03-02 18:02:08,420 log.log INFO dm response :你好,请问你是? 
+
+2023-03-02 18:02:17,892 log.log INFO query input:我是你爸爸
+我是你爸爸 0.9200431108474731
+2023-03-02 18:02:18,431 log.log INFO query rewrite output:我是你爸爸
+2023-03-02 18:02:18,479 log.log INFO predict class:Chat
+2023-03-02 18:02:18,480 log.log INFO score:0.872
+2023-03-02 18:02:18,480 log.log INFO dm response :我的创造者是摩尔线程的AI科学家。他们基于摩尔GPU的AI计算和渲染功能，赋予了我丰富的能力。我会智能内容创作，比如对对联，吟诗作画。身后的画就是我创作的，对AI艺术感兴趣的朋友们，一会儿可以去画廊参观。 
+
+2023-03-02 18:02:46,700 log.log INFO query input:
+2023-03-02 18:02:46,710 log.log INFO predict class:
+2023-03-02 18:02:46,710 log.log INFO score:1.0
+2023-03-02 18:02:46,710 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 18:02:48,138 log.log INFO query input:
+2023-03-02 18:02:48,154 log.log INFO predict class:
+2023-03-02 18:02:48,154 log.log INFO score:1.0
+2023-03-02 18:02:48,154 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 18:28:07,738 log.log INFO query input:你知道碧昂斯吗
+2023-03-02 18:28:07,738 log.log INFO query rewrite output:你知道碧昂斯吗
+2023-03-02 18:28:08,455 log.log INFO predict class:Chat
+2023-03-02 18:28:08,455 log.log INFO score:0.619594274762887
+2023-03-02 18:28:08,455 log.log INFO dm response :知道啊,她是我最喜欢的女演员 
+
+2023-03-02 18:28:08,458 log.log INFO query input:他的第一张专辑叫什么
+碧昂斯的第一张专辑叫什么 0.9959218502044678
+2023-03-02 18:28:09,136 log.log INFO query rewrite output:碧昂斯的第一张专辑叫什么
+2023-03-02 18:28:09,459 log.log INFO predict class:DocQa
+2023-03-02 18:28:09,459 log.log INFO score:0.80284846
+2023-03-02 18:28:09,459 log.log INFO dm response :危险爱情 
+
+2023-03-02 18:29:43,930 log.log INFO query input:你知道碧昂斯吗
+2023-03-02 18:29:43,930 log.log INFO query rewrite output:你知道碧昂斯吗
+2023-03-02 18:29:44,627 log.log INFO predict class:Chat
+2023-03-02 18:29:44,627 log.log INFO score:0.619594274762887
+2023-03-02 18:29:44,627 log.log INFO dm response :知道啊,她是我最喜欢的女演员 
+
+2023-03-02 18:29:44,628 log.log INFO query input:他的第一张专辑叫什么
+碧昂斯的第一张专辑叫什么 0.9959218502044678
+2023-03-02 18:29:45,310 log.log INFO query rewrite output:碧昂斯的第一张专辑叫什么
+2023-03-02 18:29:45,572 log.log INFO predict class:DocQa
+2023-03-02 18:29:45,573 log.log INFO score:0.80284846
+2023-03-02 18:29:45,573 log.log INFO dm response :危险爱情 
+
+2023-03-02 19:56:58,969 log.log INFO query input:你是谁
+你是谁 0.9893816709518433
+2023-03-02 19:56:59,534 log.log INFO query rewrite output:你是谁
+2023-03-02 19:57:00,132 log.log INFO predict class:Chat
+2023-03-02 19:57:00,132 log.log INFO score:0.9990385877640958
+2023-03-02 19:57:00,132 log.log INFO dm response :我叫穆莎 
+
+2023-03-02 19:57:44,713 log.log INFO query input:
+2023-03-02 19:57:44,731 log.log INFO predict class:
+2023-03-02 19:57:44,731 log.log INFO score:1.0
+2023-03-02 19:57:44,731 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 19:57:53,995 log.log INFO query input:
+2023-03-02 19:57:54,014 log.log INFO predict class:
+2023-03-02 19:57:54,014 log.log INFO score:1.0
+2023-03-02 19:57:54,014 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 19:58:47,465 log.log INFO query input:hi穆莎
+hi穆莎 0.9358999729156494
+2023-03-02 19:58:48,026 log.log INFO query rewrite output:hi穆莎
+2023-03-02 19:58:48,375 log.log INFO predict class:DocQa
+2023-03-02 19:58:48,376 log.log INFO score:0.6475344
+2023-03-02 19:58:48,376 log.log INFO dm response :您想问的是不是：有关《hi cutie》的问题，可以尝试换个问法哦～ 
+
+2023-03-02 20:01:17,734 log.log INFO query input:我的祖国是谁唱的
+我的祖国是谁唱的 0.9474189281463623
+2023-03-02 20:01:18,373 log.log INFO query rewrite output:我的祖国是谁唱的
+2023-03-02 20:01:18,915 log.log INFO predict class:Chat
+2023-03-02 20:01:18,915 log.log INFO score:0.4802869574592957
+2023-03-02 20:01:18,915 log.log INFO dm response :我也不知道 
+
+2023-03-02 20:02:41,123 log.log INFO query input:长江经过武汉吗
+我的祖国是长江经过武汉吗 0.8684005737304688
+2023-03-02 20:02:41,883 log.log INFO query rewrite output:我的祖国是长江经过武汉吗
+2023-03-02 20:02:42,502 log.log INFO predict class:Chat
+2023-03-02 20:02:42,502 log.log INFO score:0.4344534113291077
+2023-03-02 20:02:42,502 log.log INFO dm response :不是,长江以南都是北方 
+
+2023-03-02 20:33:14,960 log.log INFO query input:
+2023-03-02 20:33:14,978 log.log INFO predict class:
+2023-03-02 20:33:14,979 log.log INFO score:1.0
+2023-03-02 20:33:14,979 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:33:39,483 log.log INFO query input:
+2023-03-02 20:33:39,495 log.log INFO predict class:
+2023-03-02 20:33:39,495 log.log INFO score:1.0
+2023-03-02 20:33:39,495 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:33:47,264 log.log INFO query input:你好穆莎
+2023-03-02 20:33:47,264 log.log INFO query rewrite output:你好穆莎
+2023-03-02 20:33:48,699 log.log INFO predict class:Chat
+2023-03-02 20:33:48,699 log.log INFO score:0.6912019119981749
+2023-03-02 20:33:48,699 log.log INFO dm response :我叫穆莎,是摩尔线程自主研发的数字人。很高兴认识大家。 
+
+2023-03-02 20:35:42,112 log.log INFO query input:
+2023-03-02 20:35:42,127 log.log INFO predict class:
+2023-03-02 20:35:42,128 log.log INFO score:1.0
+2023-03-02 20:35:42,128 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:35:54,248 log.log INFO query input:
+2023-03-02 20:35:54,268 log.log INFO predict class:
+2023-03-02 20:35:54,268 log.log INFO score:1.0
+2023-03-02 20:35:54,268 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:36:09,206 log.log INFO query input:
+2023-03-02 20:36:09,221 log.log INFO predict class:
+2023-03-02 20:36:09,221 log.log INFO score:1.0
+2023-03-02 20:36:09,221 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:37:25,359 log.log INFO query input:
+2023-03-02 20:37:25,379 log.log INFO predict class:
+2023-03-02 20:37:25,379 log.log INFO score:1.0
+2023-03-02 20:37:25,379 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:38:19,025 log.log INFO query input:
+2023-03-02 20:38:19,036 log.log INFO predict class:
+2023-03-02 20:38:19,036 log.log INFO score:1.0
+2023-03-02 20:38:19,037 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:38:36,475 log.log INFO query input:
+2023-03-02 20:38:36,492 log.log INFO predict class:
+2023-03-02 20:38:36,492 log.log INFO score:1.0
+2023-03-02 20:38:36,492 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:38:51,680 log.log INFO query input:
+2023-03-02 20:38:51,696 log.log INFO predict class:
+2023-03-02 20:38:51,696 log.log INFO score:1.0
+2023-03-02 20:38:51,696 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:39:08,316 log.log INFO query input:
+2023-03-02 20:39:08,332 log.log INFO predict class:
+2023-03-02 20:39:08,332 log.log INFO score:1.0
+2023-03-02 20:39:08,332 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:39:17,368 log.log INFO query input:
+2023-03-02 20:39:17,386 log.log INFO predict class:
+2023-03-02 20:39:17,386 log.log INFO score:1.0
+2023-03-02 20:39:17,386 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:40:53,056 log.log INFO query input:
+2023-03-02 20:40:53,073 log.log INFO predict class:
+2023-03-02 20:40:53,073 log.log INFO score:1.0
+2023-03-02 20:40:53,073 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:41:14,854 log.log INFO query input:
+2023-03-02 20:41:14,871 log.log INFO predict class:
+2023-03-02 20:41:14,871 log.log INFO score:1.0
+2023-03-02 20:41:14,872 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:41:21,547 log.log INFO query input:
+2023-03-02 20:41:21,564 log.log INFO predict class:
+2023-03-02 20:41:21,564 log.log INFO score:1.0
+2023-03-02 20:41:21,564 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:41:38,958 log.log INFO query input:
+2023-03-02 20:41:38,978 log.log INFO predict class:
+2023-03-02 20:41:38,978 log.log INFO score:1.0
+2023-03-02 20:41:38,978 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:41:57,238 log.log INFO query input:hi穆莎
+hi穆莎 0.9358999729156494
+2023-03-02 20:41:57,767 log.log INFO query rewrite output:hi穆莎
+2023-03-02 20:41:57,985 log.log INFO predict class:DocQa
+2023-03-02 20:41:57,985 log.log INFO score:0.6475344
+2023-03-02 20:41:57,985 log.log INFO dm response :您想问的是不是：有关《hi cutie》的问题，可以尝试换个问法哦～ 
+
+2023-03-02 20:42:09,317 log.log INFO query input:
+2023-03-02 20:42:09,334 log.log INFO predict class:
+2023-03-02 20:42:09,335 log.log INFO score:1.0
+2023-03-02 20:42:09,335 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:42:15,898 log.log INFO query input:
+2023-03-02 20:42:15,914 log.log INFO predict class:
+2023-03-02 20:42:15,914 log.log INFO score:1.0
+2023-03-02 20:42:15,914 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 20:44:48,051 log.log INFO query input:
+2023-03-02 20:44:48,067 log.log INFO predict class:
+2023-03-02 20:44:48,067 log.log INFO score:1.0
+2023-03-02 20:44:48,067 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 21:01:22,275 log.log INFO query input:
+2023-03-02 21:01:22,291 log.log INFO predict class:
+2023-03-02 21:01:22,291 log.log INFO score:1.0
+2023-03-02 21:01:22,291 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 21:01:41,179 log.log INFO query input:
+2023-03-02 21:01:41,195 log.log INFO predict class:
+2023-03-02 21:01:41,195 log.log INFO score:1.0
+2023-03-02 21:01:41,195 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 21:23:09,825 log.log INFO query input:
+2023-03-02 21:23:09,840 log.log INFO predict class:
+2023-03-02 21:23:09,840 log.log INFO score:1.0
+2023-03-02 21:23:09,840 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 21:27:57,337 log.log INFO query input:hi穆莎
+2023-03-02 21:27:57,337 log.log INFO query rewrite output:hi穆莎
+2023-03-02 21:27:57,674 log.log INFO predict class:DocQa
+2023-03-02 21:27:57,674 log.log INFO score:0.6475344
+2023-03-02 21:27:57,674 log.log INFO dm response :您想问的是不是：有关《hi cutie》的问题，可以尝试换个问法哦～ 
+
+2023-03-02 21:28:08,097 log.log INFO query input:你好穆莎
+你好穆莎 0.9895126223564148
+2023-03-02 21:28:08,645 log.log INFO query rewrite output:你好穆莎
+2023-03-02 21:28:10,234 log.log INFO predict class:Chat
+2023-03-02 21:28:10,234 log.log INFO score:0.6952661195741305
+2023-03-02 21:28:10,234 log.log INFO dm response :我是穆莎,是摩尔线程自主研发的数字人。很高兴认识大家。 
+
+2023-03-02 22:25:29,045 log.log INFO query input:
+2023-03-02 22:25:29,063 log.log INFO predict class:
+2023-03-02 22:25:29,063 log.log INFO score:1.0
+2023-03-02 22:25:29,063 log.log INFO dm response :不好意思，我没听清你在说啥 
+
+2023-03-02 22:25:44,348 log.log INFO query input:
+2023-03-02 22:25:44,363 log.log INFO predict class:
+2023-03-02 22:25:44,363 log.log INFO score:1.0
+2023-03-02 22:25:44,363 log.log INFO dm response :不好意思，我没听清你在说啥 
+
